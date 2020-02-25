@@ -3,5 +3,5 @@ function data() {
 }
 
 var [first, second = 2, third, ...rest] = data();
-
+console.log(rest);
 // #####################
