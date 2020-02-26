@@ -11,3 +11,16 @@ rest = tmp.slice(3);
 console.log(first, second, third, rest);
 
 // #####################
+
+// Swap
+var x = 10;
+var y = 20;
+console.log(x, y);
+{
+  let temp = x;
+  x = y;
+  y = temp;
+}
+console.log(x, y);
+
+// #####################

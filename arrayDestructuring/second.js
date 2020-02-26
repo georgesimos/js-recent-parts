@@ -7,3 +7,12 @@ var first, second, third, rest;
 console.log(first, second, third, rest);
 
 // #####################
+
+// Swap
+var x = 10;
+var y = 20;
+console.log(x, y);
+[y, x] = [x, y];
+console.log(x, y);
+
+// #####################
