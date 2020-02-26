@@ -16,3 +16,5 @@ console.log(x, y);
 console.log(x, y);
 
 // #####################
+// Parameter Arrays
+function data2([first, second, third]) {}
