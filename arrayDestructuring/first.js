@@ -26,5 +26,5 @@ console.log(x, y);
 // #####################
 // Parameter Arrays
 function data2(tmp = []) {
-  var [first, second, third] = tmp;
+  var [first = 10, second = 20, third = 30] = tmp;
 }

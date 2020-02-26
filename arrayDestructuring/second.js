@@ -17,4 +17,4 @@ console.log(x, y);
 
 // #####################
 // Parameter Arrays
-function data2([first, second, third] = []) {}
+function data2([first = 10, second = 20, third = 30] = []) {}
