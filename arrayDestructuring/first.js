@@ -3,10 +3,11 @@ function data() {
 }
 
 var tmp = data();
-var first, second, thrird, rest;
+var first, second, third, rest;
 first = tmp[0];
-second = tmp[1] !== undefined ? tmp[1] : 2;
+// second = tmp[1] !== undefined ? tmp[1] : 2;
 third = tmp[2];
 rest = tmp.slice(3);
-console.log(rest);
+console.log(first, second, third, rest);
+
 // #####################
