@@ -2,7 +2,7 @@ function data() {
   return [1, 2, 3, 4, 5];
 }
 
-var tmp = data();
+var tmp = data() || [];
 var first, second, third, rest;
 first = tmp[0];
 // second = tmp[1] !== undefined ? tmp[1] : 2;
@@ -25,6 +25,6 @@ console.log(x, y);
 
 // #####################
 // Parameter Arrays
-function data2(tmp) {
+function data2(tmp = []) {
   var [first, second, third] = tmp;
 }
